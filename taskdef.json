@@ -2,7 +2,7 @@
     "family": "flask-app",
     "containerDefinitions": [
         {
-            "image": "310444902345.dkr.ecr.us-west-2.amazonaws.com/gettings-started/flask-app:v_%BUILD_NUMBER%",
+            "image": "310444902345.dkr.ecr.us-west-2.amazonaws.com/getting-started/flask-app:v_%BUILD_NUMBER%",
             "name": "flask-app",
             "cpu": 10,
             "memory": 256,
