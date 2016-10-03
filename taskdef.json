@@ -1,9 +1,9 @@
 {
-    "family": "flask-signup",
+    "family": "flask-app",
     "containerDefinitions": [
         {
-            "image": "your-repository/flask-signup:v_%BUILD_NUMBER%",
-            "name": "flask-signup",
+            "image": "gettings-started/flask-app:v_%BUILD_NUMBER%",
+            "name": "flask-app",
             "cpu": 10,
             "memory": 256,
             "essential": true,
